@@ -1,0 +1,64 @@
+类名： 使用大驼峰命名法（CamelCase），每个单词的首字母大写，类名通常是名词。
+
+示例：Person, StudentInfo, NetworkManager
+接口名： 类似类名，也使用大驼峰命名法，通常以 "able"、"ible"、"er" 等后缀结尾。
+
+示例：Runnable, Comparable, MouseListener
+方法名： 使用小驼峰命名法，首字母小写，动词开头，描述方法的行为。
+
+示例：calculateTotal, sendMessage, processData
+变量名： 使用小驼峰命名法，首字母小写，用于描述数据。
+
+示例：firstName, itemPrice, studentCount
+常量名： 使用全大写，多个单词间用下划线分隔，表示不变的值。
+
+示例：MAX_VALUE, PI, DEFAULT_TIMEOUT
+包名： 使用小写字母，多个单词间使用小写字母分隔。
+
+示例：com.example.project
+枚举类型名： 使用大驼峰命名法。
+
+示例：DayOfWeek, Color
+枚举值： 使用全大写，多个单词间用下划线分隔。
+
+示例：MONDAY, RED
+参数名： 使用小驼峰命名法，要具有描述性，尽量避免使用单个字符。
+
+示例：userName, orderAmount
+局部变量名： 使用小驼峰命名法，要具有描述性，能够清楚地表达其用途。
+
+示例：counter, result
+
+
+
+
+在 IntelliJ IDEA 中，您可以使用快捷键来插入各种类型的注释。以下是一些常见的注释快捷键：
+
+行注释： 在选中一行或多行代码后，按下 Ctrl + /（Windows/Linux）或 Command + /（Mac）即可插入行注释。
+
+块注释： 在选中多行代码后，按下 Ctrl + Shift + /（Windows/Linux）或 Command + Shift + /（Mac）即可插入块注释。
+
+Javadoc 注释： 在方法、类等定义的上方输入 /**，然后按下 Enter 键，IDEA 会自动生成 Javadoc 格式的注释。
+
+重要注释（TODO、FIXME、XXX）： 在代码中输入 TODO、FIXME、XXX 等关键字，IDEA 会自动识别并高亮显示，您可以点击高亮部分右侧的小灯泡来添加相应的注释。
+
+自动填充注释： 在方法或类定义的上方输入 /**，然后按下 Enter 键，IDEA 会自动根据方法参数、返回值等信息生成注释模板。
+
+插入日期注释： 在代码中输入 date，然后按下 Tab 键，IDEA 会自动插入当前日期的注释。
+
+这些快捷键可以帮助您快速添加各种类型的注释，提高代码的可读性和维护性。请注意，IDEA 的快捷键可能会因操作系统和版本而略有不同，上述快捷键适用于默认配置。如果您自定义了键盘映射，可能会有不同的快捷键。您可以在 IDEA 的设置中查找和修改键盘映射。
+
+
+将项目推送到 GitHub：
+
+创建 GitHub 仓库： 如果您的项目还没有在 GitHub 上创建对应的仓库，您需要首先在 GitHub 上创建一个新的仓库。
+
+在 IDEA 中配置 GitHub 账户： 打开 IntelliJ IDEA，选择菜单中的 "File" > "Settings"（或 "IntelliJ IDEA" > "Preferences"），然后在左侧面板中选择 "Version Control" > "GitHub"。在右侧配置区域中添加您的 GitHub 账户。
+
+关联远程仓库： 打开您的项目，右键点击项目根目录，选择 "Git" > "Repository" > "Configure Remotes"。点击 "+" 号添加远程仓库，填入 GitHub 仓库的 URL。
+
+提交并推送代码： 在 IDEA 的底部工具栏中，点击 "Commit"（或使用 Ctrl + K 快捷键）将您的更改提交到本地仓库。然后点击 "Push"（或使用 Ctrl + Shift + K 快捷键）将更改推送到 GitHub 仓库。
+
+从 GitHub 拉取最新代码：
+
+拉取代码： 如果您需要从 GitHub 仓库拉取最新的代码，可以使用 "VCS" > "Git" > "Pull" 或者 "Update Project" 来更新项目。
